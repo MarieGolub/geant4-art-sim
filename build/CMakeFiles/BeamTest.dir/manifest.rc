@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim/build/CMakeFiles/BeamTest.dir/embed.manifest"

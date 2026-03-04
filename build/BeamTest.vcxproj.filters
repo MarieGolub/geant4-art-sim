@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\BeamTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\src\ActionInitialization.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\src\DetectorConstruction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\src\PhysicsList.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\src\PrimaryGeneratorAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\src\RunAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\src\SensitiveDetector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2397D985-F1A5-315B-9DDD-471A8ABBC1A0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

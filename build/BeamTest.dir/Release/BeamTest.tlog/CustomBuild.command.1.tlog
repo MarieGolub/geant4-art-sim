@@ -1,0 +1,10 @@
+^C:\USERS\MARIE\DOCUMENTS\CODE\GEANT4\GEANT4-V11.4.0\MYPROJECTS\GEANT4-ART-SIM\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim -BC:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim/build --check-stamp-file C:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

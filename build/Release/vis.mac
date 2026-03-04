@@ -1,0 +1,9 @@
+# TSG-safe visualization (detectors only)
+# No trajectory commands (they fail in TSG)
+/vis/open TSG 800x600-0+0
+/vis/viewer/set/background white
+/vis/drawVolume
+/vis/geometry/set/visibility true
+/run/initialize
+/run/beamOn 50
+/vis/viewer/flush

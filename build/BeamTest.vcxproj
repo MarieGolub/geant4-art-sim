@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3BC43D13-B712-3C7E-BA26-CC6CEF371350}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>BeamTest</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">BeamTest.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">BeamTest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">BeamTest.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">BeamTest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">BeamTest.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">BeamTest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">BeamTest.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">BeamTest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0-install/include/Geant4"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;G4LIB_BUILD_DLL;PTL_BUILD_DLL;G4VIS_USE_TOOLSSG_WINDOWS_ZB;G4UI_USE_WIN32;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;G4LIB_BUILD_DLL;PTL_BUILD_DLL;G4VIS_USE_TOOLSSG_WINDOWS_ZB;G4UI_USE_WIN32;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\include;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\include;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4Tree.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4FR.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4GMocren.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4RayTracer.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4VRML.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4ToolsSG.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4vis_management.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4modeling.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4interfaces.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4mctruth.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4geomtext.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4analysis.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4error_propagation.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4readout.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4physicslists.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4run.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4event.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4tracking.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4parmodels.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4expat.lib;COMCTL32.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4processes_hadronic.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4processes_core.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4digits_hits.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4track.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4particles.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4geometry.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4graphics_reps.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4materials.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4intercoms.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4global.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4clhep.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4ptl.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim/build/Debug/BeamTest.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim/build/Debug/BeamTest.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0-install/include/Geant4"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;G4LIB_BUILD_DLL;PTL_BUILD_DLL;G4VIS_USE_TOOLSSG_WINDOWS_ZB;G4UI_USE_WIN32;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;G4LIB_BUILD_DLL;PTL_BUILD_DLL;G4VIS_USE_TOOLSSG_WINDOWS_ZB;G4UI_USE_WIN32;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\include;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\include;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4Tree.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4FR.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4GMocren.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4RayTracer.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4VRML.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4ToolsSG.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4vis_management.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4modeling.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4interfaces.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4mctruth.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4geomtext.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4analysis.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4error_propagation.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4readout.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4physicslists.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4run.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4event.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4tracking.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4parmodels.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4expat.lib;COMCTL32.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4processes_hadronic.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4processes_core.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4digits_hits.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4track.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4particles.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4geometry.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4graphics_reps.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4materials.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4intercoms.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4global.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4clhep.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4ptl.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim/build/Release/BeamTest.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim/build/Release/BeamTest.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0-install/include/Geant4"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;G4LIB_BUILD_DLL;PTL_BUILD_DLL;G4VIS_USE_TOOLSSG_WINDOWS_ZB;G4UI_USE_WIN32;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;G4LIB_BUILD_DLL;PTL_BUILD_DLL;G4VIS_USE_TOOLSSG_WINDOWS_ZB;G4UI_USE_WIN32;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\include;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\include;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4Tree.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4FR.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4GMocren.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4RayTracer.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4VRML.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4ToolsSG.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4vis_management.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4modeling.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4interfaces.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4mctruth.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4geomtext.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4analysis.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4error_propagation.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4readout.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4physicslists.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4run.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4event.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4tracking.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4parmodels.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4expat.lib;COMCTL32.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4processes_hadronic.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4processes_core.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4digits_hits.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4track.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4particles.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4geometry.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4graphics_reps.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4materials.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4intercoms.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4global.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4clhep.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4ptl.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim/build/MinSizeRel/BeamTest.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim/build/MinSizeRel/BeamTest.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0-install/include/Geant4"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;G4LIB_BUILD_DLL;PTL_BUILD_DLL;G4VIS_USE_TOOLSSG_WINDOWS_ZB;G4UI_USE_WIN32;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;G4LIB_BUILD_DLL;PTL_BUILD_DLL;G4VIS_USE_TOOLSSG_WINDOWS_ZB;G4UI_USE_WIN32;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\include;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\include;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\include\Geant4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4Tree.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4FR.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4GMocren.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4RayTracer.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4VRML.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4ToolsSG.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4vis_management.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4modeling.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4interfaces.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4mctruth.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4geomtext.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4analysis.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4error_propagation.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4readout.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4physicslists.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4run.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4event.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4tracking.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4parmodels.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4expat.lib;COMCTL32.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4processes_hadronic.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4processes_core.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4digits_hits.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4track.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4particles.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4geometry.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4graphics_reps.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4materials.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4intercoms.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4global.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4clhep.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4ptl.lib;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\G4zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim/build/RelWithDebInfo/BeamTest.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim/build/RelWithDebInfo/BeamTest.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim -BC:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim/build --check-stamp-file C:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\Geant4Config.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\Geant4ConfigVersion.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\Geant4LibraryDepends-release.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\Geant4LibraryDepends.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\Modules\IntelCompileFeatures.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\Modules\MSVCCompileFeatures.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\PTL\PTLConfig.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\PTL\PTLConfigVersion.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\PTL\PTLTargets-release.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\PTL\PTLTargets.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\UseGeant4.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\build\CMakeFiles\4.3.0-rc1\CMakeCCompiler.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\build\CMakeFiles\4.3.0-rc1\CMakeCXXCompiler.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\build\CMakeFiles\4.3.0-rc1\CMakeRCCompiler.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\build\CMakeFiles\4.3.0-rc1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim -BC:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim/build --check-stamp-file C:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\Geant4Config.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\Geant4ConfigVersion.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\Geant4LibraryDepends-release.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\Geant4LibraryDepends.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\Modules\IntelCompileFeatures.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\Modules\MSVCCompileFeatures.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\PTL\PTLConfig.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\PTL\PTLConfigVersion.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\PTL\PTLTargets-release.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\PTL\PTLTargets.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\UseGeant4.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\build\CMakeFiles\4.3.0-rc1\CMakeCCompiler.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\build\CMakeFiles\4.3.0-rc1\CMakeCXXCompiler.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\build\CMakeFiles\4.3.0-rc1\CMakeRCCompiler.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\build\CMakeFiles\4.3.0-rc1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim -BC:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim/build --check-stamp-file C:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\Geant4Config.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\Geant4ConfigVersion.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\Geant4LibraryDepends-release.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\Geant4LibraryDepends.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\Modules\IntelCompileFeatures.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\Modules\MSVCCompileFeatures.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\PTL\PTLConfig.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\PTL\PTLConfigVersion.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\PTL\PTLTargets-release.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\PTL\PTLTargets.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\UseGeant4.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\build\CMakeFiles\4.3.0-rc1\CMakeCCompiler.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\build\CMakeFiles\4.3.0-rc1\CMakeCXXCompiler.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\build\CMakeFiles\4.3.0-rc1\CMakeRCCompiler.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\build\CMakeFiles\4.3.0-rc1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim -BC:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim/build --check-stamp-file C:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\Geant4Config.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\Geant4ConfigVersion.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\Geant4LibraryDepends-release.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\Geant4LibraryDepends.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\Modules\IntelCompileFeatures.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\Modules\MSVCCompileFeatures.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\PTL\PTLConfig.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\PTL\PTLConfigVersion.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\PTL\PTLTargets-release.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\PTL\PTLTargets.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0-install\lib\cmake\Geant4\UseGeant4.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\build\CMakeFiles\4.3.0-rc1\CMakeCCompiler.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\build\CMakeFiles\4.3.0-rc1\CMakeCXXCompiler.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\build\CMakeFiles\4.3.0-rc1\CMakeRCCompiler.cmake;C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\build\CMakeFiles\4.3.0-rc1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\BeamTest.cc" />
+    <ClCompile Include="C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\src\ActionInitialization.cc" />
+    <ClCompile Include="C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\src\DetectorConstruction.cc" />
+    <ClCompile Include="C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\src\PhysicsList.cc" />
+    <ClCompile Include="C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\src\PrimaryGeneratorAction.cc" />
+    <ClCompile Include="C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\src\RunAction.cc" />
+    <ClCompile Include="C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\src\SensitiveDetector.cc" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\marie\Documents\Code\Geant4\geant4-v11.4.0\MyProjects\geant4-art-sim\build\ZERO_CHECK.vcxproj">
+      <Project>{A32736EA-162E-3A86-A92B-A39D0273CA13}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
