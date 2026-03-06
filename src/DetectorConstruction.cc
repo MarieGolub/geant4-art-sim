@@ -22,8 +22,8 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     auto physWorld = new G4PVPlacement(nullptr, G4ThreeVector(), logicWorld, "World", nullptr, false, 0);
 
     // Material block in the middle
-    auto block = new G4Box("Block", 5*cm, 5*cm, 2*cm);
-    auto logicBlock = new G4LogicalVolume(block, nist->FindOrBuildMaterial("G4_Cu"), "Block");
+    auto block = new G4Box("Block", 5*cm, 5*cm, 0.02*cm);
+    auto logicBlock = new G4LogicalVolume(block, nist->FindOrBuildMaterial("G4_POLYSTYRENE"), "Block");
     new G4PVPlacement(nullptr, G4ThreeVector(0,0,0), logicBlock, "Block", logicWorld, false, 0);
 
     // DWC1

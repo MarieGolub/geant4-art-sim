@@ -1,6 +1,6 @@
 ^C:\USERS\MARIE\DOCUMENTS\CODE\GEANT4\GEANT4-V11.4.0\MYPROJECTS\GEANT4-ART-SIM\BUILD\CMAKEFILES\6F6397567D0BD76CE56EA8D95986C502\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim -BC:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim/build/BeamTest.slnx
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim -BC:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/marie/Documents/Code/Geant4/geant4-v11.4.0/MyProjects/geant4-art-sim/build/BeamTest.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

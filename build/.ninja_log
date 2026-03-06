@@ -1,9 +1,0 @@
-# ninja log v6
-34	71	7943143283658003	clean	f0cf74c3a4b70919
-81	2451	7943143285046720	CMakeFiles/BeamTest.dir/src/ActionInitialization.cc.obj	b5372fe5b69b0029
-127	2200	7943143285525714	CMakeFiles/BeamTest.dir/src/PrimaryGeneratorAction.cc.obj	bbbae7c3d6ab8659
-106	2677	7943143285337787	CMakeFiles/BeamTest.dir/src/PhysicsList.cc.obj	56813a4624779a22
-153	3296	7943143285814197	CMakeFiles/BeamTest.dir/src/SensitiveDetector.cc.obj	2d709623219380d8
-69	3434	7943143284910406	CMakeFiles/BeamTest.dir/BeamTest.cc.obj	9fb77450251eca86
-92	2575	7943143285177912	CMakeFiles/BeamTest.dir/src/DetectorConstruction.cc.obj	53b95edfe9961998
-137	2907	7943143285635689	CMakeFiles/BeamTest.dir/src/RunAction.cc.obj	6886fa5f5f4fb10
